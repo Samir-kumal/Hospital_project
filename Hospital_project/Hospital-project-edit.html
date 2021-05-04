@@ -62,6 +62,15 @@
         color: darkblue;
     }
     
+    span.fa-angle-down{
+        color: white;
+        background-color: navy;
+        font-size: 18px;
+        margin-top: 17px;
+        margin-left: -2px;
+        float: right;
+    }
+    
 .fa-facebook {
     background: white;
     color: black;
@@ -175,7 +184,7 @@
         list-style: none;
         position: relative;
         margin: 0px 10px;
-        margin-left: 42px;
+        margin-left: 62px;
 
     }
     nav ul li{
@@ -196,7 +205,16 @@
         text-decoration: none;
         line-height: 60px;
         font-size: 20px;
-        padding: 8px 25px ;
+        padding: 9px 25px ;
+    }
+     .services{
+        color: white;
+        padding: 0px 0px ;
+    }
+    .departments{
+        color: white;
+        padding: 0px 0px ;
+
     }
     nav ul li a:hover{
         color: grey;
@@ -270,6 +288,8 @@
         display: block;
 
     }
+  
+
     .Container{
         height: 500px;
         width: 100%;
@@ -358,7 +378,7 @@
             <span class="Text2"> Location: 
                 <span class="fa fa-paper-plane"></span>
                 <br> 
-            <span class="Sub-text2"> Vyas4,Damauli </span>
+            <span class="Sub-text2"> Vyas~4,Damauli </span>
             </span>
         </div>
         <nav>
@@ -371,7 +391,9 @@
                         <a href="#">About</a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
+                        <a href="#" class="services">Services
+                            <span class="fa fa-angle-down"></span>
+                        </a>
                         <ul>
                             <li><a href="#">Emergency Help</a></li>
                             <li><a href="#">Qualified Doctors</a></li>
@@ -381,7 +403,9 @@
                     </li>
                     <li><a href="#">Doctors</a></li>
                     <li>
-                        <a href="#">Departments</a>
+                        <a href="#" class="departments">Departments
+                            <span class="fa fa-angle-down"></span>
+                        </a>
                         <ul>
                             <li><a href="#">Neurology</a></li>
                             <li><a href="#">Ophthalmology</a></li>
