@@ -374,6 +374,7 @@
             float: left;
             margin: 30px;
             padding-left: 80px;
+            font-family:monospace;
         }
         
         .ctn-2 {
@@ -419,7 +420,7 @@
         }
         
         .input-container {
-            display: -ms-flexbox display: flex;
+            display:-ms-flexbox ;
             width: 100%;
             margin-bottom: 15px;
             color: grey;
@@ -468,7 +469,44 @@
             border: 2px solid green;
             color: #000;
         }
-        
+        footer{
+            background-color: rgb(226, 217, 217);
+            height: 370px;
+            width: 100%;
+            
+        }
+        .footer{
+            display: flex;
+            justify-content: space-around;
+        }
+        .footer span{
+            font-size: 25px;
+            font-weight: bolder;
+            text-align: left;
+            margin: 60px 0px 0px ;
+
+
+        }
+        .footer span ul li {
+            text-align: left;
+            font-size: 20px;
+            font-weight: normal;
+            line-height: 35px; 
+            list-style: none;
+            cursor: pointer;
+            letter-spacing: 0.9px;
+        }
+        .footer span ul li:hover{
+            opacity: 0.8;
+        }
+        .fa-angle-right{
+            padding: 0;
+            margin: 7px 0px 0px ;
+            background-color: transparent;
+            font-weight: bolder;
+            
+
+        }
         .last-footer h3 {
             margin-top: 10px;
             color: #f9f9f981;
@@ -605,12 +643,12 @@
                 </div>
 
                 <div class="ctn-3">
-                    <h3>Qualified Doctors</h3><br/>
+                    <h3>Location & Directions</h3><br/>
                     <span class="Text-3">A small river named Duden flows by their place and supplies it with the necessary regelialia.</span>
                 </div>
 
                 <div class="ctn-4">
-                    <h3>Qualified Doctors</h3><br/>
+                    <h3>Medical Treatment</h3><br/>
                     <span class="Text-3">A small river named Duden flows by their place and supplies it with the necessary regelialia.</span>
                 </div>
 
@@ -664,6 +702,51 @@
             </div>
 
         </div>
+        <footer>
+            <div class="footer">
+                <span>
+                    Departments
+                
+                    <ul>
+                        <li><i class=" fa fa-angle-right" ></ifa></i> Neurology</li>
+                        <li><i class=" fa fa-angle-right" ></ifa></i> Ophthalmology</li>
+                        <li><i class=" fa fa-angle-right" ></ifa></i> Nuclear Magnetic</li>
+                        <li><i class=" fa fa-angle-right" ></ifa></i> X-Ray</li>
+                        <li><i class=" fa fa-angle-right" ></ifa></i> Surgical</li>
+                        <li><i class=" fa fa-angle-right" ></ifa></i> Cardiology</li>
+                        <li><i class=" fa fa-angle-right" ></ifa></i> Dental</li>
+
+                        
+                    </ul>
+                </span>
+                
+                <span>
+                    Links
+                    <ul>
+                        <li><i class=" fa fa-angle-right" ></ifa></i> Home</li>
+                        <li><i class=" fa fa-angle-right" ></ifa></i> About</li>
+                        <li><i class=" fa fa-angle-right" ></ifa></i> Departments</li>
+                        <li><i class=" fa fa-angle-right" ></ifa></i> Doctors</li>
+                        <li><i class=" fa fa-angle-right" ></ifa></i> Blog</li>
+                        <li><i class=" fa fa-angle-right" ></ifa></i> Pricing</li>
+                        <li><i class=" fa fa-angle-right" ></ifa></i> Contacts</li>
+
+
+                    </ul>
+                </span>
+                <span>
+                   Services
+                
+                    <ul>
+                        <li><i class=" fa fa-angle-right" ></ifa></i> Emergency Help</li>
+                        <li><i class=" fa fa-angle-right" ></ifa></i> Qualified Doctors</li>
+                        <li><i class=" fa fa-angle-right" ></ifa></i> Location & Directions</li>
+                        <li><i class=" fa fa-angle-right" ></ifa></i> Medical Treatment</li>
+
+                    </ul>
+                </span>
+            </div>
+        </footer>
 
         <div class="last-footer">
             <h3 class="cr">Copyright(C)2021.All rights reserved || Developed by Sutta Gang. </h3>
